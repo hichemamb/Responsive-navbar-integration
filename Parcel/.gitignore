@@ -1,13 +1,4 @@
+.DS_Store
 /node_modules
 /dist
-
-
-__MACOSX
-.DS_Store
-
-# OS generated files #
-######################
-*/.DS_Store
-.DS_Store
-.DS_Store?
 yarn.lock
