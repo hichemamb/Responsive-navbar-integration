@@ -1,0 +1,21 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "starter",
+  "main": "index.js",
+  "author": "hichem",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "postcss-modules": "^1.1.0"
+  }
+}
