@@ -2,18 +2,18 @@ import 'flexboxgrid';
 import './style/style.scss';
 
 
-var carre = document.querySelector('.cross');
-var carre2 = document.querySelector('.modalCross');
-var modal = document.querySelector('.modal');
+var barMenu = document.querySelector('.Header-barMenu');
+var cross = document.querySelector('.Header-modalCross');
+var modal = document.querySelector('.Header-modal');
 
 
-carre.addEventListener('click',function(){
+barMenu.addEventListener('click',function(){
   modal.style.display='block';
   modal.style.animationName='slideNav';
 });
 
 
-carre2.addEventListener('click',function(){
+cross.addEventListener('click',function(){
 
 
   modal.style.animationName='slideNav2';
